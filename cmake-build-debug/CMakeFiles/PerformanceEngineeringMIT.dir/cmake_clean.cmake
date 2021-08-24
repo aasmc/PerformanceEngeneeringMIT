@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/PerformanceEngineeringMIT.dir/lecture01/matrix_optimisation.cpp.o"
   "CMakeFiles/PerformanceEngineeringMIT.dir/lecture02/recommendations.cpp.o"
   "CMakeFiles/PerformanceEngineeringMIT.dir/lecture03/bit_hacks.cpp.o"
+  "CMakeFiles/PerformanceEngineeringMIT.dir/lecture03/examples.cpp.o"
   "PerformanceEngineeringMIT"
   "PerformanceEngineeringMIT.pdb"
 )

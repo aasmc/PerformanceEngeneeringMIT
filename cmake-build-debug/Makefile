@@ -201,6 +201,30 @@ lecture03/bit_hacks.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PerformanceEngineeringMIT.dir/build.make CMakeFiles/PerformanceEngineeringMIT.dir/lecture03/bit_hacks.cpp.s
 .PHONY : lecture03/bit_hacks.cpp.s
 
+lecture03/examples.o: lecture03/examples.cpp.o
+.PHONY : lecture03/examples.o
+
+# target to build an object file
+lecture03/examples.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PerformanceEngineeringMIT.dir/build.make CMakeFiles/PerformanceEngineeringMIT.dir/lecture03/examples.cpp.o
+.PHONY : lecture03/examples.cpp.o
+
+lecture03/examples.i: lecture03/examples.cpp.i
+.PHONY : lecture03/examples.i
+
+# target to preprocess a source file
+lecture03/examples.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PerformanceEngineeringMIT.dir/build.make CMakeFiles/PerformanceEngineeringMIT.dir/lecture03/examples.cpp.i
+.PHONY : lecture03/examples.cpp.i
+
+lecture03/examples.s: lecture03/examples.cpp.s
+.PHONY : lecture03/examples.s
+
+# target to generate assembly for a file
+lecture03/examples.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PerformanceEngineeringMIT.dir/build.make CMakeFiles/PerformanceEngineeringMIT.dir/lecture03/examples.cpp.s
+.PHONY : lecture03/examples.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -219,6 +243,9 @@ help:
 	@echo "... lecture03/bit_hacks.o"
 	@echo "... lecture03/bit_hacks.i"
 	@echo "... lecture03/bit_hacks.s"
+	@echo "... lecture03/examples.o"
+	@echo "... lecture03/examples.i"
+	@echo "... lecture03/examples.s"
 .PHONY : help
 
 

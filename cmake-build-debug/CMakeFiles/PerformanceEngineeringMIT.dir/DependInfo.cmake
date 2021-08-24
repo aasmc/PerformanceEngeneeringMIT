@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/aleksas/CLionProjects/PerformanceEngineeringMIT/lecture01/matrix_optimisation.cpp" "/home/aleksas/CLionProjects/PerformanceEngineeringMIT/cmake-build-debug/CMakeFiles/PerformanceEngineeringMIT.dir/lecture01/matrix_optimisation.cpp.o"
   "/home/aleksas/CLionProjects/PerformanceEngineeringMIT/lecture02/recommendations.cpp" "/home/aleksas/CLionProjects/PerformanceEngineeringMIT/cmake-build-debug/CMakeFiles/PerformanceEngineeringMIT.dir/lecture02/recommendations.cpp.o"
   "/home/aleksas/CLionProjects/PerformanceEngineeringMIT/lecture03/bit_hacks.cpp" "/home/aleksas/CLionProjects/PerformanceEngineeringMIT/cmake-build-debug/CMakeFiles/PerformanceEngineeringMIT.dir/lecture03/bit_hacks.cpp.o"
+  "/home/aleksas/CLionProjects/PerformanceEngineeringMIT/lecture03/examples.cpp" "/home/aleksas/CLionProjects/PerformanceEngineeringMIT/cmake-build-debug/CMakeFiles/PerformanceEngineeringMIT.dir/lecture03/examples.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

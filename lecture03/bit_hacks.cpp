@@ -139,6 +139,37 @@ unsigned minimumOfTwo(unsigned x, unsigned y) {
     return r;
 }
 
+/**
+ * E.g.
+ *        x = 0010000001010000
+ *       -x = 1101111110110000
+ * x & (-x) = 0000000000010000
+ * @param x
+ * @return
+ */
+int computeLeastSignificantBitMask(int x) {
+    int res = x & (-x);
+    return res;
+}
+
+/**
+ * Counts the number of bits set to 1 in unsigned integer [x].
+ * It does so by repeatedly eliminating a least significant bit.
+ *
+ * E.g. iteration 1.
+ *             x = 0010110111010000
+ *         x - 1 = 0010110111001111
+ *   x & (x - 1) = 0010110111000000
+ * @param x
+ * @return the number of bits set to 1 in unsigned integer x
+ */
+unsigned populationCount(unsigned x) {
+    int r;
+    for(r = 0; x != 0; ++r) {
+        x &= x - 1;
+    }
+    return r;
+}
 
 
 

@@ -91,6 +91,9 @@
 		<Unit filename="/home/aleksas/CLionProjects/PerformanceEngineeringMIT/lecture03/bit_hacks.cpp">
 			<Option target="PerformanceEngineeringMIT"/>
 		</Unit>
+		<Unit filename="/home/aleksas/CLionProjects/PerformanceEngineeringMIT/lecture03/examples.cpp">
+			<Option target="PerformanceEngineeringMIT"/>
+		</Unit>
 		<Unit filename="/home/aleksas/CLionProjects/PerformanceEngineeringMIT/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
