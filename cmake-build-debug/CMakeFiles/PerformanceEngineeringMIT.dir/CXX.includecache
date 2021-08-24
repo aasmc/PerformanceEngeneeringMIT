@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/aleksas/CLionProjects/PerformanceEngineeringMIT/lecture01/matrix_optimisation.cpp
+stdlib.h
+/home/aleksas/CLionProjects/PerformanceEngineeringMIT/lecture01/stdlib.h
+stdio.h
+/home/aleksas/CLionProjects/PerformanceEngineeringMIT/lecture01/stdio.h
+sys/time.h
+/home/aleksas/CLionProjects/PerformanceEngineeringMIT/lecture01/sys/time.h
+

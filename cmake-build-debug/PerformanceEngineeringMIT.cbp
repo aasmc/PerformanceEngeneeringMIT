@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="PerformanceEngineeringMIT"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/aleksas/CLionProjects/PerformanceEngineeringMIT/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/bin/make -j4 -f &quot;/home/aleksas/CLionProjects/PerformanceEngineeringMIT/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/bin/make -j4 -f &quot;/home/aleksas/CLionProjects/PerformanceEngineeringMIT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/make -j4 -f &quot;/home/aleksas/CLionProjects/PerformanceEngineeringMIT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/make -j4 -f &quot;/home/aleksas/CLionProjects/PerformanceEngineeringMIT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/aleksas/CLionProjects/PerformanceEngineeringMIT/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/bin/make -j4 -f &quot;/home/aleksas/CLionProjects/PerformanceEngineeringMIT/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/bin/make -j4 -f &quot;/home/aleksas/CLionProjects/PerformanceEngineeringMIT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/make -j4 -f &quot;/home/aleksas/CLionProjects/PerformanceEngineeringMIT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/make -j4 -f &quot;/home/aleksas/CLionProjects/PerformanceEngineeringMIT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/aleksas/CLionProjects/PerformanceEngineeringMIT/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/bin/make -j4 -f &quot;/home/aleksas/CLionProjects/PerformanceEngineeringMIT/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/bin/make -j4 -f &quot;/home/aleksas/CLionProjects/PerformanceEngineeringMIT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/make -j4 -f &quot;/home/aleksas/CLionProjects/PerformanceEngineeringMIT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/make -j4 -f &quot;/home/aleksas/CLionProjects/PerformanceEngineeringMIT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PerformanceEngineeringMIT">
+				<Option output="/home/aleksas/CLionProjects/PerformanceEngineeringMIT/cmake-build-debug/PerformanceEngineeringMIT" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aleksas/CLionProjects/PerformanceEngineeringMIT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/bin/make -j4 -f &quot;/home/aleksas/CLionProjects/PerformanceEngineeringMIT/cmake-build-debug/Makefile&quot;  VERBOSE=1 PerformanceEngineeringMIT"/>
+					<CompileFile command="/bin/make -j4 -f &quot;/home/aleksas/CLionProjects/PerformanceEngineeringMIT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/make -j4 -f &quot;/home/aleksas/CLionProjects/PerformanceEngineeringMIT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/make -j4 -f &quot;/home/aleksas/CLionProjects/PerformanceEngineeringMIT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PerformanceEngineeringMIT/fast">
+				<Option output="/home/aleksas/CLionProjects/PerformanceEngineeringMIT/cmake-build-debug/PerformanceEngineeringMIT" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aleksas/CLionProjects/PerformanceEngineeringMIT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/bin/make -j4 -f &quot;/home/aleksas/CLionProjects/PerformanceEngineeringMIT/cmake-build-debug/Makefile&quot;  VERBOSE=1 PerformanceEngineeringMIT/fast"/>
+					<CompileFile command="/bin/make -j4 -f &quot;/home/aleksas/CLionProjects/PerformanceEngineeringMIT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/make -j4 -f &quot;/home/aleksas/CLionProjects/PerformanceEngineeringMIT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/make -j4 -f &quot;/home/aleksas/CLionProjects/PerformanceEngineeringMIT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/aleksas/CLionProjects/PerformanceEngineeringMIT/lecture01/matrix_optimisation.cpp">
+			<Option target="PerformanceEngineeringMIT"/>
+		</Unit>
+		<Unit filename="/home/aleksas/CLionProjects/PerformanceEngineeringMIT/lecture02/recommendations.cpp">
+			<Option target="PerformanceEngineeringMIT"/>
+		</Unit>
+		<Unit filename="/home/aleksas/CLionProjects/PerformanceEngineeringMIT/lecture03/bit_hacks.cpp">
+			<Option target="PerformanceEngineeringMIT"/>
+		</Unit>
+		<Unit filename="/home/aleksas/CLionProjects/PerformanceEngineeringMIT/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
