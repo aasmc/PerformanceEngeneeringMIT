@@ -165,14 +165,29 @@ int computeLeastSignificantBitMask(int x) {
  */
 unsigned populationCount(unsigned x) {
     int r;
-    for(r = 0; x != 0; ++r) {
+    for (r = 0; x != 0; ++r) {
         x &= x - 1;
     }
     return r;
 }
 
-
-
+/**
+ * Checks if a given unsigned integer [x] is
+ * a power of 2 using 2's complement as representation of a negative number.
+ *
+ * E.g.    x = 0010110111010000 - 11278 (decimal)
+ *        -x = 1101001000110000
+ *  x & (-x) = 0000000000010000  - so, it is not a power of 2
+ *
+ *        x = 0000000000100000 - 32 (decimal)
+ *       -x = 1111111111100000
+ * x & (-x) = 0000000000100000 - so, 32 is a power of 2
+ * @param x
+ * @return
+ */
+bool checkIsPowerOfTwo(unsigned x) {
+    return ((x & (-x)) == x);
+}
 
 
 
